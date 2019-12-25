@@ -58,7 +58,7 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/TheSpeedX/TBomb
+git clone https://github.com/mountain47/bombX
 if [[ -s TBomb/TBomb.sh ]];then
 cd TBomb
 cp -r -f * .. > temp
@@ -77,9 +77,9 @@ exit
 elif [ $ch -eq 4 ];then
 clear
 echo -e "\e[1;33m"
-figlet TBomb
+figlet Bablu dev
 echo -e "\e[1;34mCreated By \e[1;34m"
-toilet -f mono12 -F border SpeedX
+toilet -f mono12 -F border Bablu Dev
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
 echo "  [+] Unlimited And Super-Fast Bombing"
